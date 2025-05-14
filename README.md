@@ -3,6 +3,7 @@
 SmartGrid AI is a spreadsheet-like web application that allows users to enrich structured data (like student info, leads, etc.) with AI-powered columns using LLMs (OpenAI GPT). No coding required—just type, click, and get insights!
 
 ---
+# backend/app/new_main.py is the only backend file that is required 
 
 ## Features
 - Spreadsheet UI: Add, edit, delete rows and columns
@@ -44,7 +45,7 @@ OPENAI_API_KEY=your_openai_api_key_here
 
 Start the backend:
 ```bash
-uvicorn app.main:app --reload
+uvicorn app.new_main:app --reload
 ```
 
 ### 3. Frontend Setup
